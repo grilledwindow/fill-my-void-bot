@@ -1,4 +1,4 @@
-import { sendMethod, setWebhook, WEBHOOK_ENDPOINT } from "./bot/index.ts";
+import { sendMethod, setWebhook, WEBHOOK_ENDPOINT } from "./bot.ts";
 import { Application } from "https://deno.land/x/abc@v1.3.3/mod.ts";
 
 import { config } from "https://deno.land/x/dotenv/mod.ts";
